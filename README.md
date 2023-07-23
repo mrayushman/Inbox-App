@@ -1,11 +1,9 @@
-# spring-reactive-github-login-starter
-Starter Reactive Spring Boot project for OAuth login with GitHub
+# Inbox App
 
-Simple starter for a Spring Boot Webflux application with GitHub OAuth support.
 
-Steps:
-1. Create a GitHub App and get the Client ID and Client Secret values. (Specify callback URL as `http://localhost:8080/login/oauth2/code/github` for development, uncheck Web hooks)
-2. Add those values in `application.yml`
-3. Run the Spring Boot App. You should be able to login with GitHub
-
-This is a super minimal app. Post login, you will be redirected back to the login page, but you can validate the authorized principal is created by accessing the `/user` API. 
+Inbox App | Spring Boot, Apache Cassandra, Spring Security, Thymeleaf 
+• Build an Inbox Messaging app using Java, Spring Boot and Apache Cassandra which allows users to exchange
+messages.
+• The application works using the GitHub ID of the user. Unread Emails are highlighted, as Emails is read it is no
+longer highlighted and the count of messages in Inbox Decreases.
+• It contains Inbox, Sent Items. Emails can be classified as Work, Home, Important.
